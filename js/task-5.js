@@ -11,3 +11,56 @@
 // Австралия - 170 кредитов
 // Индия - 80 кредитов
 // Ямайка - 120 кредитов
+
+//  Попытка решить 2
+
+// function getShippingCost(countryUser) {
+//     let countryUser = prompt('Введите название страны').toUpperCase();
+//     let priceGet;
+//     let message;
+//     switch (countryUser) {
+//         case 'Китай':
+//             priceGet = 120;
+//             break;
+//         case 'Чили':
+//             priceGet = 120;
+//             break;
+//         case 'Австралия':
+//             priceGet = 120;
+//             break;
+//         case 'Индия':
+//             priceGet = 120;
+//             break;
+//         case 'Ямайка':
+//             priceGet = 120;
+//             break;
+//         default:
+//             alert((message = 'В вашей стране доставка не доступна'));
+
+//             message = `Доставка в ${countryUser} будет стоить ${priceGet} кредитов`;
+//     }
+// }
+
+// РЕШЕНИЕ
+
+let countryUser = prompt('Введите название страны').toUpperCase();
+
+switch (countryUser) {
+    case countryUser === 'Китай':
+        console.log('Доставка в Китай будет стоить 180 кредитов');
+        break;
+    case countryUser === 'Чили':
+        console.log('Доставка в Чили будет стоить 250 кредитов');
+        break;
+    case countryUser === 'Австралия':
+        console.log('Доставка в Австралию будет стоить 170 кредитов');
+        break;
+    case countryUser === 'Индия':
+        console.log('Доставка в Индию будет стоить 80 кредитов');
+        break;
+    case countryUser === 'Ямайка':
+        console.log('Доставка в Ямайку будет стоить 180 кредитов');
+        break;
+    default:
+        alert('В вашей стране доставка не доступна');
+}
