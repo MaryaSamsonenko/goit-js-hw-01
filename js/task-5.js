@@ -43,22 +43,22 @@
 
 // РЕШЕНИЕ
 
-let countryUser = prompt('Введите название страны').toUpperCase();
+let countryUser = prompt('Введите название страны').toLowerCase();
 
 switch (countryUser) {
-    case countryUser === 'Китай':
+    case 'китай':
         console.log('Доставка в Китай будет стоить 180 кредитов');
         break;
-    case countryUser === 'Чили':
+    case 'чили':
         console.log('Доставка в Чили будет стоить 250 кредитов');
         break;
-    case countryUser === 'Австралия':
+    case 'австралия':
         console.log('Доставка в Австралию будет стоить 170 кредитов');
         break;
-    case countryUser === 'Индия':
+    case 'индия':
         console.log('Доставка в Индию будет стоить 80 кредитов');
         break;
-    case countryUser === 'Ямайка':
+    case 'ямайка':
         console.log('Доставка в Ямайку будет стоить 180 кредитов');
         break;
     default:
