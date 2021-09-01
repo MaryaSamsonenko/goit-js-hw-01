@@ -16,16 +16,16 @@
 //     при этом результат prompt плюсовать к общей сумме не нужно,
 //     после чего снова пользователю предлагается ввести число в prompt.
 
-let input;
-let total = 0;
+// let input;
+// let total = 0;
 
-do {
-    input = prompt('Введите число:', '');
-    if (Number.isNaN(Number(input))) {
-        alert('Было введено не число, попробуйте еще раз');
-        continue;
-    }
-    total += Number(input);
-} while (input !== null);
+// do {
+//     input = prompt('Введите число:', '');
+//     if (Number.isNaN(Number(input))) {
+//         alert('Было введено не число, попробуйте еще раз');
+//         continue;
+//     }
+//     total += Number(input);
+// } while (input !== null);
 
-alert(`Общая сумма чисел равна ${total}`);
+// alert(`Общая сумма чисел равна ${total}`);
